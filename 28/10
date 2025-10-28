@@ -1,0 +1,31 @@
+Bài 1:Bảng cửu chương(89)
+n=int(input())
+for i in range(1,11):
+    print(f"{n} x {i} = {n * i}")
+
+
+Bài 2:Kiểm tra số chẵn hay lẻ
+n=int(input())
+if n%2==0:
+    print("So ban nhap la so chan")
+else:
+    print("So ban nhap la so le")
+
+
+Bài 3:Phép cộng thần thánh
+n=int(input())
+m=int(input())
+print(n+m)
+
+
+Bài 4:Tìm số lớn nhất trong 3 số 
+n=list(map(int,input().split()))
+gtln=max(n)
+print(gtln)
+
+
+Bài 5:tính hiệu 2 số nguyên
+day=input().split()
+a=int(day[0])
+b=int(day[1])
+print (a-b)
