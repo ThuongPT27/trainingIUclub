@@ -1,0 +1,5 @@
+tính tích 2 số nguyên
+
+a=int(input())
+b=int(input())
+print(a*b)
